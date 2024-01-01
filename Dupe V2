@@ -1,0 +1,13 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ruby Hub | Pet Simulator 99! ", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Dupe Script V2")
+local MainSection = Main:NewSection("Dupe Pets")
+
+MainSection:NewButton("Dupe Huges - Exclusives - GEMS !", "Duped Pets", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatdog69/Ruby_Dupe/main/DupeV2", true))()
+
+end)
